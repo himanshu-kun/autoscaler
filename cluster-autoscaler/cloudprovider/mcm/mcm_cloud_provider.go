@@ -436,3 +436,8 @@ func buildMachineDeployment(mcmManager *McmManager, minSize int, maxSize int, na
 		},
 	}
 }
+
+// GetOptions needs to be implemented : TODO :
+func (machinedeployment *MachineDeployment) GetOptions(defaults config.NodeGroupAutoscalingOptions) (*config.NodeGroupAutoscalingOptions, error) {
+	return nil, nil
+}
