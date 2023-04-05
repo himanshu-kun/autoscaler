@@ -13,8 +13,8 @@ require (
 	github.com/Azure/skewer v0.0.14
 	github.com/aws/aws-sdk-go v1.44.116
 	github.com/digitalocean/godo v1.27.0
-	github.com/gardener/machine-controller-manager v0.48.1
-	github.com/gardener/machine-controller-manager-provider-aws v0.16.0
+	github.com/gardener/machine-controller-manager v0.48.2
+	github.com/gardener/machine-controller-manager-provider-aws v0.17.0
 	github.com/gardener/machine-controller-manager-provider-azure v0.10.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/gofrs/uuid v4.0.0+incompatible
@@ -185,7 +185,7 @@ require (
 	k8s.io/kube-proxy v0.0.0 // indirect
 	k8s.io/kube-scheduler v0.0.0 // indirect
 	k8s.io/kubectl v0.0.0 // indirect
-	k8s.io/mount-utils v0.25.0 // indirect
+	k8s.io/mount-utils v0.26.0-alpha.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.33 // indirect
 	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
