@@ -405,8 +405,6 @@ func main() {
 		klog.V(1).Infof("Gardener Cluster Autoscaler %s", gardenerversion)
 	}
 
-	debuggingSnapshotter := debuggingsnapshot.NewDebuggingSnapshotter(*debuggingSnapshotEnabled)
-
 	go func() {
 		pathRecorderMux := mux.NewPathRecorderMux("cluster-autoscaler")
 		defaultMetricsHandler := legacyregistry.Handler().ServeHTTP
